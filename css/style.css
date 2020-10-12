@@ -6,9 +6,10 @@ body{
     background-size: 100% 100%;
     overflow: auto;
 }
-.bold {
-    font-weight: 900 !important;
-}
+ body[data-aos-duration='3000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='3000'] {
+    transition-duration: 3000ms;
+  }
 .header {
     width: 115%;
     background: url(../img/header.png);
@@ -63,29 +64,6 @@ body{
  margin-top: 2%;
 }
 .left1 {
-  float:left;
-  margin-left:20px;
-  max-width: 20%;
-  max-height: 20%;
-  margin-top: 2%;
-}
-
-
-.center2 {
-  display: block;
-  margin-left: 42%;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 2%;
-}
-.right2 {
-  float:right;
-  margin-right:20px;
-  max-width: 20%;
-  max-height: 20%;
- margin-top: 2%;
-}
-.left2 {
   float:left;
   margin-left:20px;
   max-width: 20%;
